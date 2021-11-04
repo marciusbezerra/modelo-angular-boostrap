@@ -1,0 +1,121 @@
+<form class="col-sm-12">
+
+    <button class="btn">
+        Notification <span class="badge badge-primary">2</span>
+    </button>
+
+    <span class="badge badge-pill badge-secondary">33</span><br>
+
+    <div class="btn-group" role="group" aria-label="">
+        <button type="button" class="btn btn-secondary">test1</button>
+        <button type="button" class="btn btn-secondary">test2</button>
+        <div class="btn-group" role="group">
+            <button id="dropdownId" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                testtest3
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">aaaaa</a>
+                <a class="dropdown-item" href="#">bbbbb</a>
+            </div>
+        </div>
+    </div><br>
+
+    <button type="button" name="btnTest2" id="btnTest2" class="btn btn-success btn-lg btn-block">test</button>
+
+    <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-danger active">
+            <input type="checkbox" name="btn331" id="btn331" checked autocomplete="off"> a
+        </label>
+        <label class="btn btn-danger">
+            <input type="checkbox" name="btn332" id="btn332" autocomplete="off"> b
+        </label>
+        <label class="btn btn-danger">
+            <input type="checkbox" name="btn333" id="btn333" autocomplete="off"> c
+        </label>
+    </div>
+
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="aaaa">
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="xxxx">
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+        </div>
+    </div>
+
+    <ul class="list-unstyled">
+        <li class="media">
+            <a class="d-flex" href="#">
+                <img src="" alt="">
+            </a>
+            <div class="media-body">
+                <h5>Media heading</h5>
+                Media text
+            </div>
+        </li>
+        <li class="media">
+            <a class="d-flex" href="#">
+                <img src="" alt="">
+            </a>
+            <div class="media-body">
+                <h5>Media heading</h5>
+                Media text
+            </div>
+        </li>
+        <li class="media">
+            <a class="d-flex" href="#">
+                <img src="" alt="">
+            </a>
+            <div class="media-body">
+                <h5>Media heading</h5>
+                Media text
+            </div>
+        </li>
+    </ul>
+
+    <div class="form-group col-sm-6">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Nome..."
+            aria-describedby="nameHelpId">
+        <small id="nameHelpId" class="text-muted">Informe seu nome</small>
+    </div>
+    <div class="form-group col-sm-6">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+            placeholder="mail@mail.com">
+        <small id="emailHelpId" class="form-text text-muted">Informe seu email</small>
+    </div>
+    <div class="form-group row">
+        <label for="city" class="col-sm-12 col-form-label">Cidade</label>
+        <div class="col-sm-12">
+            <input type="text" class="form-control" name="city" id="city" placeholder="Cidade...">
+        </div>
+    </div>
+    <fieldset class="form-group row">
+        <legend class="col-form-legend col-sm-12">Group name</legend>
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="framework">Framework</label>
+                <select class="form-control" name="framework" id="framework">
+                    <option>C#</option>
+                    <option>TypeScript</option>
+                    <option>Ionic</option>
+                </select>
+            </div>
+        </div>
+    </fieldset>
+    <div class="form-group row">
+        <div class="offset-sm-10 col-sm-12">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </div>
+</form>
